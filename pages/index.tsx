@@ -7,12 +7,14 @@ import Prices from "@/components/Prices";
 import Blog from "@/components/Blog";
 import BannerCita from "@/components/BannerCita";
 import Footer from "@/components/Footer";
+import CustomHeader from "@/components/CustomHeader";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <section>
+    <section className="relative">
+      <CustomHeader />
       <div>
         <MainBanner></MainBanner>
       </div>

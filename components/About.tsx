@@ -2,15 +2,27 @@ import React from 'react';
 
 const About = () => {
     return (
-        <section className='h-[100vh] flex items-center bg-white p-4 rounded-lg mt-12 mb-12 shadow-lg'>
+        <section className='h-[75vh] flex items-center bg-white p-4 rounded-lg mt-12 mb-12 shadow-lg'>
             <div className='flex'>
                 <div className='w-[50%]'>
                     <img src="/estetica.png" className='w-[35rem] ' />
                 </div>
-                <div className='w-[50%]'>
+                <div className='w-[50%] flex flex-col justify-center'>
                     <h4 className='section-title mb-10'>SALÓN DE BELLEZA EN VALENCIA
                     </h4>
-                    <p>{abouttext}</p>
+                    <p>
+                        ¡Descubre el encanto de Salon Anastasia! En nuestro acogedor salón de belleza, te invitamos a experimentar una experiencia única en estética y cuidado personal. Especializados en una amplia gama de servicios, estamos aquí para realzar tu belleza y bienestar. <br /><br />
+
+                        En Peluquería, ofrecemos desde cortes modernos hasta técnicas avanzadas como mechas, Airtouch, babylife y shatush. Nuestros tratamientos de renovación del cabello revitalizan y restauran tu melena, mientras que nuestros recogidos te hacen lucir elegante en cualquier ocasión. <br /><br />
+
+                        Relájate y rejuvenece con nuestros masajes especializados, incluyendo maderoterapia corporal y facial, masajes relajantes, presoterapia, cavitación y radiofrecuencia. Cada sesión está diseñada para aliviar el estrés y revitalizar tu cuerpo y mente. <br /><br />
+
+                        En el área de Uñas, ofrecemos una variedad de servicios como manicuras combinadas, extensiones de uñas y pedicuras completas en un entorno de SPA que te dejará sintiéndote renovada y lista para brillar. <br /><br />
+
+                        Además, nuestro maquillaje profesional es perfecto para novias, fiestas y sesiones de fotos, garantizando que luzcas espectacular en cualquier evento especial. <br /><br />
+
+                        ¡Visítanos en Salon Anastasia y descubre por qué somos el destino preferido para tus necesidades de belleza y cuidado personal! Te esperamos para consentirte y hacer que te sientas radiante en cada visita.
+                    </p>
                 </div>
             </div>
         </section>
