@@ -3,9 +3,11 @@ import React from "react";
 
 const Prices = () => {
   return (
-    <section className="pt-[5rem] px-10" id="prices">
+    <section className="py-[2rem] lg:py-[5rem] px-10" id="prices">
       <div>
-        <h2 className="mb-20 section-title">ALGUNOS DE NUESTROS PRECIOS</h2>
+        <h2 className="mb-10 lg:mb-20 section-title">
+          ALGUNOS DE NUESTROS PRECIOS
+        </h2>
         <div>
           {services_prices.map((service) => (
             <div className=" mb-4 border-b border-[#cccccc]">
