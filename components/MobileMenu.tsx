@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState, useRef, useEffect } from "react";
 
 const MobileMenu = () => {
@@ -35,9 +36,9 @@ const MobileMenu = () => {
           className="right-9 absolute mt-2 py-2 w-48 bg-white rounded-lg shadow-xl"
         >
           <nav className="px-4 shadow-lg pt-6 pb-3">
-            <a href="#prices" className="">
+            <Link href="#prices" className="">
               <p className="cursor-pointer h-[2rem]">Precios</p>
-            </a>
+            </Link>
             <p className="cursor-pointer h-[2rem]">Galeria</p>
             <p className="cursor-pointer h-[2rem]">Uñas</p>
             <p className="cursor-pointer h-[2rem]">Contacto</p>

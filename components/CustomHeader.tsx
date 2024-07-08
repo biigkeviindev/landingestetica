@@ -1,5 +1,6 @@
 import React from "react";
 import MobileMenu from "./MobileMenu";
+import Link from "next/link";
 
 const CustomHeader = () => {
   return (
@@ -12,28 +13,28 @@ const CustomHeader = () => {
         </div>
         <div className="flex">
           <div className="w-1/3">
-            <a href="/">
+            <Link href="/">
               <img
                 className="w-32 absolute left-32 top-8"
                 src="/logo-simple-hd.png"
                 alt="Logo Anastasia"
               />
-            </a>
+            </Link>
           </div>
           <nav className="flex gap-20 mx-14">
-            <a href="/">
+            <Link href="/">
               <p className="cursor-pointer">Inicio</p>
-            </a>
-            <a href="/precios">
+            </Link>
+            <Link href="/precios">
               <p className="cursor-pointer">Precios</p>
-            </a>
-            <a href="/galeria">
+            </Link>
+            <Link href="/galeria">
               <p className="cursor-pointer">Galeria</p>
-            </a>
+            </Link>
             <p className="cursor-pointer">Contacto</p>
-            <a href="/blog">
+            <Link href="/blog">
               <p className="cursor-pointer">Blog</p>
-            </a>
+            </Link>
           </nav>
         </div>
       </header>

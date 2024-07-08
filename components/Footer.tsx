@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -41,7 +42,7 @@ const Footer = () => {
         <p className="mb-6">
           <b>Martes a sábado:</b> De 10:00 a 14:00 y 16:00 a 20:00
         </p>
-        <a
+        <Link
           target="_blank"
           href="https://www.instagram.com/salon.anastasia.agnes/?igsh=MWduYTA1MnY4NmpwOQ%3D%3D"
         >
@@ -50,7 +51,7 @@ const Footer = () => {
             src="/002-instagram.png"
             alt="Instagram"
           />
-        </a>
+        </Link>
       </div>
     </footer>
   );
