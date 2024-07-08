@@ -18,7 +18,7 @@ export default function Home() {
       <div>
         <MainBanner></MainBanner>
       </div>
-      <div className="container mx-auto">
+      {/* <div className="container mx-auto">
         <Services />
         <About />
         <Prices />
@@ -27,7 +27,7 @@ export default function Home() {
       <BannerCita />
       <div className="container mx-auto">
         <Footer />
-      </div>
+      </div> */}
     </section>
   );
 }
