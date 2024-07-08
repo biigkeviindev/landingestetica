@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flex gap-8 py-8 px-10 text-white bg-[#000000]">
-      <div className="w-1/3">
+    <footer className="flex flex-col lg:flex-row gap-8 py-8 px-10 text-white bg-[#000000]">
+      <div className="lg:w-1/3">
         <p className="section-title mb-6">
           <img
             className="w-32 "
@@ -17,7 +17,7 @@ const Footer = () => {
         </p>
         <div className="py-6 flex"></div>
       </div>
-      <div className="w-1/3 pr-3">
+      <div className="lg:w-1/3 pr-3">
         <h5 className="font-bold mb-6 border-b-2 border-white">
           Nuestros salones
         </h5>
@@ -34,7 +34,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="w-1/3">
+      <div className="lg:w-1/3">
         <h5 className="font-bold mb-6 border-b-2 border-white">
           Nuestros horarios
         </h5>
