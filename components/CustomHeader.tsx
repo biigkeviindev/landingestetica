@@ -1,4 +1,5 @@
 import React from "react";
+import MobileMenu from "./MobileMenu";
 
 const CustomHeader = () => {
   return (
@@ -35,6 +36,7 @@ const CustomHeader = () => {
             src="/logo-simple-hd.png"
             alt="Logo Anastasia"
           />
+          <MobileMenu />
         </div>
         <div className="flex justify-end w-1/2">
           <img className="w-[30px]" src="/menu.png" alt="Logo Anastasia" />
