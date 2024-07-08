@@ -9,8 +9,8 @@ const Blog = () => {
         <h2 className="section-title">BLOG</h2>
       </div>
       <div className="flex flex-col lg:flex-row gap-10">
-        {BlogEntries.map((blog) => (
-          <ItemBlog blog={blog} />
+        {BlogEntries.map((blog, key) => (
+          <ItemBlog blog={blog} key={key} />
         ))}
       </div>
     </section>
