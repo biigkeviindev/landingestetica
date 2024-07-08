@@ -9,8 +9,8 @@ const Prices = () => {
           ALGUNOS DE NUESTROS PRECIOS
         </h2>
         <div>
-          {services_prices.map((service) => (
-            <div className=" mb-4 border-b border-[#cccccc]">
+          {services_prices.map((service, key) => (
+            <div key={key} className=" mb-4 border-b border-[#cccccc]">
               <div className="flex justify-between">
                 <h5 className="color-main font-bold text-[19px]">
                   {service.title}

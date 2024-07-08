@@ -35,8 +35,8 @@ const Services = () => {
         <span>7 centros de belleza en valencia</span>
       </div>
       <div className="flex flex-wrap px-4 lg:flex-nowrap lg:gap-10 w-100">
-        {servicesList.map((service) => (
-          <div className="w-[100%] mb-6">
+        {servicesList.map((service, key) => (
+          <div key={key} className="w-[100%] mb-6">
             <img
               className="mb-10 rounded-lg w-[100%] h-[30rem]"
               src={service.image}
