@@ -32,7 +32,6 @@ const Services = () => {
         <div className="m-h-[70vh] flex flex-col justify-center items-center pt-[5rem] mb-[4rem] lg:mb-[10rem]">
             <div className="mb-[4rem] text-center">
                 <h2 className="section-title">SERVICIOS</h2>
-                <span>7 centros de belleza en valencia</span>
             </div>
             <div className="flex flex-wrap px-4 lg:flex-nowrap lg:gap-10 w-100">
                 {servicesList.map((service, key) => (

@@ -8,7 +8,7 @@ const About = () => {
           <img src="/estetica.png" className="w-[22rem] lg:w-[35rem] " />
         </div>
         <div className="w-[100%] lg:w-[50%] flex flex-col justify-center mb-4 lg:mb-0">
-          <h4 className="section-title mb-10">SALÓN DE BELLEZA EN VALENCIA</h4>
+          <h4 className="section-title mb-10">SALÓN DE BELLEZA EN MADRID</h4>
           <p>
             ¡Descubre el encanto de Salon Anastasia! En nuestro acogedor salón
             de belleza, te invitamos a experimentar una experiencia única en
