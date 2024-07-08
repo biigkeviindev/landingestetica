@@ -6,8 +6,11 @@ const CustomGallery = () => {
   return (
     <div className="container mx-auto px-4 py-8 lg:py-[90px]">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {GalleryItems?.map((entry) => (
-          <div className="bg-white rounded-lg overflow-hidden shadow-lg">
+        {GalleryItems?.map((entry, key) => (
+          <div
+            key={key}
+            className="bg-white rounded-lg overflow-hidden shadow-lg"
+          >
             <img
               src={`/${entry}`}
               alt="Imagen 1"
