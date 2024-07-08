@@ -3,11 +3,11 @@ import React from "react";
 const About = () => {
   return (
     <section className="m-h-[75vh] py-12 flex items-center bg-white p-4 mt-12 mb-12">
-      <div className="flex">
-        <div className="w-[50%]">
-          <img src="/estetica.png" className="w-[35rem] " />
+      <div className="flex flex-col-reverse md:flex-row">
+        <div className="flex justify-center items-center w-[100%] lg:w-[50%]">
+          <img src="/estetica.png" className="w-[22rem] lg:w-[35rem] " />
         </div>
-        <div className="w-[50%] flex flex-col justify-center">
+        <div className="w-[100%] lg:w-[50%] flex flex-col justify-center mb-4 lg:mb-0">
           <h4 className="section-title mb-10">SALÓN DE BELLEZA EN VALENCIA</h4>
           <p>
             ¡Descubre el encanto de Salon Anastasia! En nuestro acogedor salón
