@@ -11,7 +11,7 @@ const MainBanner = () => {
             <li className="banner-little">UÑAS</li>
           </ul>
         </span>
-        <h2 className="text-[1.4rem] text-center mb-14 text-white md:text-[50px] font-bold uppercase md:leading-[55px] lg:w-[50rem]">
+        <h2 className="text-[1.4rem] px-4 text-center mb-14 text-white md:text-[50px] font-bold uppercase md:leading-[55px] lg:w-[50rem]">
           VIVE UNA EXPERIENCIA ÚNICA EN NUESTROS CENTROS DE BELLEZA
         </h2>
         <div className="flex justify-center gap-6 lg:gap-40">

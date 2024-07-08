@@ -18,13 +18,13 @@ export default function Home() {
       <div>
         <MainBanner></MainBanner>
       </div>
-      {/* <div className="container mx-auto">
+      <div className="container mx-auto">
         <Services />
-        <About />
+        {/* <About />
         <Prices />
-        <Blog />
+        <Blog /> */}
       </div>
-      <BannerCita />
+      {/* <BannerCita />
       <div className="container mx-auto">
         <Footer />
       </div> */}
