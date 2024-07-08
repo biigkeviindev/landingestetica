@@ -12,7 +12,7 @@ const BannerCita = () => {
             al salón que te gustaría visitar o reservando online.
           </p>
         </div>
-        <div className="flex pt-10 gap-40 text-white">
+        <div className="flex flex-col lg:flex-row pt-10 gap-8 mb-6 lg:gap-40 text-white">
           <div>
             <h6 className="font-bold">PELUQUERÍA</h6>
             <span className="text-[12px]">
@@ -34,7 +34,7 @@ const BannerCita = () => {
             </span>
           </div>
         </div>
-        <div className="py-10">
+        <div className="lg:py-10">
           <button className="bg-[#80BEB9]  px-16 py-4  text-white text-[13px]">
             PEDIR CITA
           </button>

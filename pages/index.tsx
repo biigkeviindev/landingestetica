@@ -22,10 +22,10 @@ export default function Home() {
         <Services />
         <About />
         <Prices />
-        {/* <Blog />  */}
+        <Blog />
       </div>
-      {/* <BannerCita />
-      <div className="container mx-auto">
+      <BannerCita />
+      {/*       <div className="container mx-auto">
         <Footer />
       </div> */}
     </section>

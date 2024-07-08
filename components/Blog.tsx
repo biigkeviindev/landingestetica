@@ -2,11 +2,11 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <section className="m-h-[30rem] flex flex-col items-center justify-center px-10 pt-[5rem] mb-[10rem]">
+    <section className="m-h-[30rem] flex flex-col items-center justify-center px-10 py-[2rem] lg:pt-[5rem] lg:mb-[10rem]">
       <div className="mb-10">
         <h2 className="section-title">BLOG</h2>
       </div>
-      <div className="flex gap-10">
+      <div className="flex flex-col lg:flex-row gap-10">
         <ItemBlog />
         <ItemBlog />
         <ItemBlog />
