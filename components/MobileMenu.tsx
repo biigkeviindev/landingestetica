@@ -23,16 +23,16 @@ const MobileMenu = () => {
 
   return (
     <div className="relative inline-block">
-      <button
+      <img
         onClick={toggleMenu}
-        className="px-4 py-2 bg-blue-600 text-white rounded"
-      >
-        Abrir Menú
-      </button>
+        className="w-[30px]"
+        src="/menu.png"
+        alt="Logo Anastasia"
+      />
       {isOpen && (
         <div
           ref={menuRef}
-          className="absolute mt-2 py-2 w-48 bg-white rounded-lg shadow-xl"
+          className="right-9 absolute mt-2 py-2 w-48 bg-white rounded-lg shadow-xl"
         >
           <a
             href="#"

@@ -36,10 +36,9 @@ const CustomHeader = () => {
             src="/logo-simple-hd.png"
             alt="Logo Anastasia"
           />
-          <MobileMenu />
         </div>
         <div className="flex justify-end w-1/2">
-          <img className="w-[30px]" src="/menu.png" alt="Logo Anastasia" />
+          <MobileMenu />
         </div>
       </header>
     </>
