@@ -25,9 +25,9 @@ export default function Home() {
         <Blog />
       </div>
       <BannerCita />
-      <div className="container mx-auto">
-        <Footer />
-      </div>
+
+      <Footer />
+
     </section>
   );
 }

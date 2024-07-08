@@ -16,7 +16,7 @@ const Prices = () => {
                   {service.title}
                 </h5>
                 <p className="color-main font-bold text-[19px]">
-                  Desde {service.price}€
+                  <span className="font-light">Desde </span>{service.price}€
                 </p>
               </div>
               {service.extra && <p className="text-[14px]">{service.extra}</p>}

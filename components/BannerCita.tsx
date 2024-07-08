@@ -1,6 +1,10 @@
 import React from "react";
 
 const BannerCita = () => {
+  const goWsp = () => {
+    window.open('https://wa.me/34622757185', '_blank');
+  }
+
   return (
     <section className="m-h-[45vh] flex flex-col banner-cita-bg p-10 ">
       <div className="container mx-auto">
@@ -35,7 +39,7 @@ const BannerCita = () => {
           </div>
         </div>
         <div className="lg:py-10">
-          <button className="bg-[#80BEB9]  px-16 py-4  text-white text-[13px]">
+          <button className="bg-[#80BEB9]  px-16 py-4  text-white text-[13px]" onClick={goWsp}>
             PEDIR CITA
           </button>
         </div>

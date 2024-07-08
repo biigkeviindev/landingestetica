@@ -1,6 +1,13 @@
 import React from "react";
 
 const MainBanner = () => {
+  const goWsp = () => {
+    window.open('https://wa.me/34622757185', '_blank');
+  }
+  const call = () => {
+    window.location.href = 'tel:+34622757185';
+  }
+
   return (
     <div className="flex justify-center items-center h-[80vh] pt-10 bg-main-banner shadow-image w-full">
       <div>
@@ -15,11 +22,11 @@ const MainBanner = () => {
           VIVE UNA EXPERIENCIA ÚNICA EN NUESTROS CENTROS DE BELLEZA
         </h2>
         <div className="flex justify-center gap-6 lg:gap-40">
-          <button className="border border-1 px-10 py-4 font-bold text-white">
+          <button className="border border-1 px-10 py-4 font-bold text-white" onClick={goWsp}>
             PEDIR CITA
           </button>
-          <button className="border border-1 px-10 py-4 font-bold text-white">
-            CANCELAR CITA
+          <button className="border border-1 px-10 py-4 font-bold text-white" onClick={call}>
+            LLAMANOS
           </button>
         </div>
       </div>

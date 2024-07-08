@@ -34,24 +34,15 @@ const MobileMenu = () => {
           ref={menuRef}
           className="right-9 absolute mt-2 py-2 w-48 bg-white rounded-lg shadow-xl"
         >
-          <a
-            href="#"
-            className="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white"
-          >
-            Opción 1
-          </a>
-          <a
-            href="#"
-            className="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white"
-          >
-            Opción 2
-          </a>
-          <a
-            href="#"
-            className="block px-4 py-2 text-gray-800 hover:bg-blue-600 hover:text-white"
-          >
-            Opción 3
-          </a>
+          <nav className="px-4 shadow-lg pt-6 pb-3">
+            <a href="#prices" className="">
+              <p className="cursor-pointer h-[2rem]">Precios</p>
+            </a>
+            <p className="cursor-pointer h-[2rem]">Galeria</p>
+            <p className="cursor-pointer h-[2rem]">Uñas</p>
+            <p className="cursor-pointer h-[2rem]">Contacto</p>
+            <p className="cursor-pointer h-[2rem]">Blog</p>
+          </nav>
         </div>
       )}
     </div>
