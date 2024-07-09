@@ -19,7 +19,7 @@ const MainBanner = () => {
           </ul>
         </span>
         <h2 className="text-[1.4rem] px-4 text-center mb-14 text-white md:text-[50px] font-bold uppercase md:leading-[55px] lg:w-[50rem]">
-          VIVE UNA EXPERIENCIA ÚNICA EN NUESTRO CENTRO DE BELLEZA
+          DESCUBRE UNA EXPERIENCIA INIGUALABLE EN NUESTRO CENTRO DE ESTÉTICA
         </h2>
         <div className="flex justify-center gap-6 lg:gap-40">
           <button className="border border-1 px-10 py-4 font-bold text-white" onClick={goWsp}>

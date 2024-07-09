@@ -3,6 +3,10 @@ import MobileMenu from "./MobileMenu";
 import Link from "next/link";
 
 const CustomHeader = () => {
+  const call = () => {
+    window.location.href = 'tel:+34622757185';
+  }
+
   return (
     <>
       <header className="hidden lg:flex  flex-col container mx-auto h-[4rem] items-center absolute left-0  right-0 text-white ">
@@ -32,7 +36,7 @@ const CustomHeader = () => {
             <Link href="/galeria">
               <p className="cursor-pointer">Galeria</p>
             </Link>
-            <p className="cursor-pointer">Contacto</p>
+            <p className="cursor-pointer" onClick={call}>Contacto</p>
             <Link href="/blog">
               <p className="cursor-pointer">Blog</p>
             </Link>

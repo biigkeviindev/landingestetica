@@ -9,7 +9,6 @@ import BannerCita from "@/components/BannerCita";
 import Footer from "@/components/Footer";
 import CustomHeader from "@/components/CustomHeader";
 import CustomBanner from "@/components/CustomBanner";
-import CustomGallery from "@/components/CustomGallery";
 
 
 export default function BlogPage() {
