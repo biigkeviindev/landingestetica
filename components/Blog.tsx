@@ -8,7 +8,7 @@ const Blog = () => {
       <div className="mb-10">
         <h2 className="section-title">BLOG</h2>
       </div>
-      <div className="flex flex-col lg:flex-row gap-10">
+      <div className="flex flex-wrap lg:flex-nowrap flex-col lg:flex-row gap-2">
         {BlogEntries.map((blog, key) => (
           <ItemBlog blog={blog} key={key} />
         ))}
@@ -19,7 +19,7 @@ const Blog = () => {
 
 const ItemBlog = ({ blog }: any) => {
   return (
-    <div className="shadow-lg w-1/3 bg-[#f1f2f3] rounded-lg">
+    <div className="shadow-lg w-100 md:w-1/3 bg-[#f1f2f3] rounded-lg">
       <img src={blog.imagen} alt="" className="w-full mb-4 h-[400px]" />
       <div className="py-6 px-2">
         <h4 className="font-bold mb-3">{blog.title}</h4>
