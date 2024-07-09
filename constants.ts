@@ -53,15 +53,15 @@ export const BlogEntries = [
         url: '/blog/masajes-relajantes'
     },
     {
-        title: 'LLa Elegancia de los Tocados',
+        title: 'La Elegancia de los Tocados',
         subtitle: 'La peluquería es un arte que va más allá del simple corte y peinado del cabello.',
         imagen: '/tocado-blog.jpg',
         url: '/blog/tocados-peluqueria'
     },
     {
-        title: 'La Magia de los Masajes Relajantes: Un Camino hacia la Paz Interior',
-        subtitle: 'En el agitado mundo moderno, encontrar momentos de tranquilidad y relajación es esencial para mantener un equilibrio saludable entre la mente y el cuerpo.',
-        imagen: '',
-        url: '/blog/masajes-relajantes'
+        title: 'Centros de Estética y Tratamientos de Uñas',
+        subtitle: 'Los centros de estética ofrecen una amplia variedad de tratamientos para mejorar la apariencia y el bienestar de las personas.',
+        imagen: '/14.jpg',
+        url: '/blog/cuidado-unas'
     },
 ]

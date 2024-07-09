@@ -6,10 +6,11 @@ const CustomHeader = () => {
   return (
     <>
       <header className="hidden lg:flex  flex-col container mx-auto h-[4rem] items-center absolute left-0  right-0 text-white ">
-        <div className="flex justify-center border-b mb-6 pt-4">
+        <div className="flex justify-between border-b mb-6 pt-4">
           <p className="font-light px-[15rem]">
             Los mejores servicios de estética, masajes y tratamiento de uñas
           </p>
+          <p className="cursor-pointer">+34 624 02 33 25</p>
         </div>
         <div className="flex">
           <div className="w-1/3">
@@ -35,6 +36,7 @@ const CustomHeader = () => {
             <Link href="/blog">
               <p className="cursor-pointer">Blog</p>
             </Link>
+
           </nav>
         </div>
       </header>

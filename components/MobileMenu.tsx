@@ -26,7 +26,7 @@ const MobileMenu = () => {
     <div className="relative inline-block">
       <img
         onClick={toggleMenu}
-        className="w-[30px]"
+        className="w-[30px] cursor-pointer"
         src="/menu.png"
         alt="Logo Anastasia"
       />
@@ -35,14 +35,20 @@ const MobileMenu = () => {
           ref={menuRef}
           className="right-9 absolute mt-2 py-2 w-48 bg-white rounded-lg shadow-xl"
         >
-          <nav className="px-4 shadow-lg pt-6 pb-3">
-            <Link href="#prices" className="">
-              <p className="cursor-pointer h-[2rem]">Precios</p>
+          <nav className="flex flex-col gap-8 px-3 py-6">
+            <Link href="/">
+              <p className="cursor-pointer border-b">Inicio</p>
             </Link>
-            <p className="cursor-pointer h-[2rem]">Galeria</p>
-            <p className="cursor-pointer h-[2rem]">Uñas</p>
-            <p className="cursor-pointer h-[2rem]">Contacto</p>
-            <p className="cursor-pointer h-[2rem]">Blog</p>
+            <Link href="/precios">
+              <p className="cursor-pointer">Precios</p>
+            </Link>
+            <Link href="/galeria">
+              <p className="cursor-pointer">Galeria</p>
+            </Link>
+            <p className="cursor-pointer">Contacto</p>
+            <Link href="/blog">
+              <p className="cursor-pointer">Blog</p>
+            </Link>
           </nav>
         </div>
       )}

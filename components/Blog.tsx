@@ -19,7 +19,7 @@ const Blog = () => {
 
 const ItemBlog = ({ blog }: any) => {
   return (
-    <div className="shadow-lg bg-[#f1f2f3] rounded-lg">
+    <div className="shadow-lg w-1/3 bg-[#f1f2f3] rounded-lg">
       <img src={blog.imagen} alt="" className="w-full mb-4 h-[400px]" />
       <div className="py-6 px-2">
         <h4 className="font-bold mb-3">{blog.title}</h4>

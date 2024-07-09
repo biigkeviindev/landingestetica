@@ -48,11 +48,13 @@ const Services = () => {
                             <h3 className={`${service?.style} text-[27px] mb-5`}>
                                 {service.name}
                             </h3>
-                            <button
-                                className={`text-[12px] border border-2 px-10 py-3 ${service?.style} ${service?.border}`}
-                            >
-                                VER MÁS
-                            </button>
+                            <a href="/galeria">
+                                <button
+                                    className={`text-[12px] border border-2 px-10 py-3 ${service?.style} ${service?.border}`}
+                                >
+                                    VER MÁS
+                                </button>
+                            </a>
                         </div>
                     </div>
                 ))}
