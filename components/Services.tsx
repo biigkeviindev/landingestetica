@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const servicesList = [
@@ -48,13 +49,13 @@ const Services = () => {
                             <h3 className={`${service?.style} text-[27px] mb-5`}>
                                 {service.name}
                             </h3>
-                            <a href="/galeria">
+                            <Link href="/galeria">
                                 <button
                                     className={`text-[12px] border border-2 px-10 py-3 ${service?.style} ${service?.border}`}
                                 >
                                     VER MÁS
                                 </button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 ))}
